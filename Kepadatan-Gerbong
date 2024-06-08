@@ -1,1 +1,8 @@
+import java.util.*;
 
+public class KepadatanGerbong {
+    public static void main(String[] args) {
+        Scanner kereta = new Scanner(System.in);
+        
+        int N = kereta.nextInt();
+        int M = kereta.nextInt();
