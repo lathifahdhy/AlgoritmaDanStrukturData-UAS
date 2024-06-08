@@ -6,10 +6,21 @@ public class KepadatanGerbong {
         
         int N = kereta.nextInt();
         int M = kereta.nextInt();
+
         List<Set<Integer>> gerbong = new ArrayList<>(N);
         for (int i = 0; i < N; i++) {
             gerbong.add(new HashSet<>());
         }
         
         List<Integer> results = new ArrayList<>();
-        int IDpenumpang = 1;
+        int IdPenumpang = 1;
+
+        for (int i = 0; i < M; i++) {
+            int tipe = kereta.nextInt();
+            if (tipe == 1) {
+                // Aktivitas tipe 1: "1 X Y"
+                int X = kereta.nextInt() - 1;
+                int Y = kereta.nextInt();
+                for (int j = 0; j < Y; j++) {
+                    gerbong.get(X).add(IdPenumpang++);
+                }
