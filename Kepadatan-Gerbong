@@ -34,4 +34,21 @@ public class KepadatanGerbong {
                 for (int j = A; j <= B; j++) {
                     penumpangUnik.addAll(gerbong.get(j));
                 }
+                
+                                for (int j = C; j <= D; j++) {
+                    penumpangUnik.addAll(gerbong.get(j));
+                }
+                
+                results.add(penumpangUnik.size());
+            }
+        }
+        
+        System.out.println();
 
+        for (int result : results) {
+            System.out.println(result);
+        }
+        
+        kereta.close();
+    }
+}
