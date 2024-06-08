@@ -18,9 +18,20 @@ public class KepadatanGerbong {
         for (int i = 0; i < M; i++) {
             int tipe = kereta.nextInt();
             if (tipe == 1) {
-                // Aktivitas tipe 1: "1 X Y"
                 int X = kereta.nextInt() - 1;
                 int Y = kereta.nextInt();
                 for (int j = 0; j < Y; j++) {
                     gerbong.get(X).add(IdPenumpang++);
                 }
+                } else if (tipe == 2) {
+                int A = kereta.nextInt() - 1;
+                int B = kereta.nextInt() - 1;
+                int C = kereta.nextInt() - 1;
+                int D = kereta.nextInt() - 1;
+                
+                Set<Integer> penumpangUnik = new HashSet<>();
+                
+                for (int j = A; j <= B; j++) {
+                    penumpangUnik.addAll(gerbong.get(j));
+                }
+
