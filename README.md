@@ -1,5 +1,5 @@
 # AlgoritmaDanStrukturData-UAS
-##SOAL 7: Kepadatan Manusia di Gerbong KAI
+## SOAL 7: Kepadatan Manusia di Gerbong KAI
 
 Staf APKMGK (Asosiasi Pengendalian Kepadatan Manusia di Gerbong Kereta) sedang bekerja untuk membuat statistik tentang berapa banyak orang yang menggunakan kereta sebagai moda transportasi dan bagaimana mereka memilih gerbong untuk masuk. Mereka mencatat, dari waktu ke waktu, berapa banyak orang yang masuk ke gerbong tertentu. Untuk menghasilkan data yang bermanfaat, staf perlu mengetahui pada waktu tertentu berapa banyak orang berbeda yang berada dalam jarak dua gerbong.
 Mereka membutuhkan bantuan Anda untuk mengetahui informasi tersebut secara cepat!
